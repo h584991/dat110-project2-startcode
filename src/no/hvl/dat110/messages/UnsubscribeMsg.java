@@ -24,7 +24,7 @@ public class UnsubscribeMsg extends Message {
 	
 	@Override
 	public String toString() {
-		return "Message [type=" + getType() + ", user=" + getUser() + ", topic=" + topic + "]";
+		return "UnsubscribeMsg [type=" + getType() + ", user=" + getUser() + ", topic=" + topic + "]";
 	};
 
 

@@ -24,7 +24,7 @@ public class SubscribeMsg extends Message {
 	
 	@Override
 	public String toString() {
-		return "Message [type=" + getType() + ", user=" + getUser() + ", topic=" + topic + "]";
+		return "SubscribeMsg [type=" + getType() + ", user=" + getUser() + ", topic=" + topic + "]";
 	};
 
 	// Constructor, get/set-methods, and toString method

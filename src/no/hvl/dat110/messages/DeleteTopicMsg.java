@@ -24,7 +24,7 @@ public class DeleteTopicMsg extends Message {
 	
 	@Override
 	public String toString() {
-		return "Message [type=" + getType() + ", user=" + getUser() + ", topic=" + topic + "]";
+		return "DeleteTopicMsg [type=" + getType() + ", user=" + getUser() + ", topic=" + topic + "]";
 	};
 
 	// Constructor, get/set-methods, and toString method
